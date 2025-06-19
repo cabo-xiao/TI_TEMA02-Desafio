@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Modular Completo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <!-- === HEADER (Menu) === -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Menu</div>
+            <ul class="nav-links">
+                <li><a href="#">Muscle</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Rancing</a></li>
+                <li><a href="#">Work</a></li>
+                <!-- Adicione mais itens aqui -->
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+            <button class="theme-toggle-btn">🌓</button> <!-- Botão de tema escuro/claro -->
+        </nav>
+    </header>
+
+    <!-- === HERO BANNER === -->
+    <section class="hero-banner">
+    <div class="hero-content">
+        <h1>Faça agora sua Customização</h1>
+        <p>Trabalhamos com modelos nacionais e internacionais</p>
+    </div>
+    </section>
+
+    <!-- === CARROSSEL DE IMAGENS === -->
+    <section class="image-carousel">
+        <h2>Carrossel de Imagens</h2>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="img/pexels-mike-noga-1916934-3608542.jpg" alt="Imagem 1">
+                <img src="img/pexels-arnie-watkins-1337313-3156482.jpg" alt="Imagem 2">
+                <img src="img/pexels-lynxexotics-3752194.jpg" alt="Imagem 3">
+                <img src="img/pexels-tomverdoot-1972736.jpg" alt="Imagem 4">
+                <!-- Adicione mais imagens aqui -->
+            </div>
+            <button class="carousel-prev">❮</button>
+            <button class="carousel-next">❯</button>
+        </div>
+    </section>
+
+    <!-- === GRID DE IMAGENS COM DESCRIÇÃO === -->
+    <section class="image-grid">
+        <h2>Grid de Imagens</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="img/pexels-alexazabache-3879065.jpg" alt="Imagem 1">
+                <p>Ultilitarios</p>
+            </div>
+            <div class="grid-item">
+                <img src="img/pexels-lynxexotics-3752194.jpg" alt="Imagem 2">
+                <p>Esportivos</p>
+            
+        </div>
+    </section>
+
+
+    <!-- === FORMULÁRIO DE CONTATO === -->
+    <section class="contact-form">
+        <h2>Fale Conosco</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+   
+    
+    <!-- === PRICING === -->
+    <section class="pricing">
+        <h2>Nossos Planos</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Básico</h3>
+                <p class="price">R$ 29,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Profissional</h3>
+                <p class="price">R$ 59,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                    <li>Recurso 4</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Premium</h3>
+                <p class="price">R$ 99,90<span>/mês</span></p>
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                    <li>Recurso 3</li>
+                    <li>Recurso 4</li>
+                    <li>Recurso 5</li>
+                </ul>
+                <button class="cta-button">Assinar</button>
+            </div>
+            <!-- Adicione mais planos aqui -->
+        </div>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer class="footer">
+        <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
